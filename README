@@ -1,12 +1,11 @@
-# Idle Space Miner
+# Idle Space Miner Deluxe
 
-Dieses Repo enthält ein kleines Browser-Idle-Game.
+Ein React-basiertes Idle/Incremental-Game mit mehreren Ressourcen.
 Öffne `index.html` in einem aktuellen Browser, um zu spielen.
 
 ## Features
-- Staub sammeln durch Klicks
-- Auto-Sammler kaufen
-- Laser-Booster für höhere Produktion
-- Prestige-System mit dauerhaften Produktionsboni
-- Erfolge (Achievements)
-- Automatisches Speichern mit LocalStorage
+- Drei Ressourcen: Erz, Kristall und Energie
+- Arbeiter und Upgrades zur automatischen Produktion
+- Offline-Fortschritt, zufällige Meteor-Events und Achievements
+- Prestige-System mit Sternen und globalem Produktionsbonus
+- React-UI mit automatischem Speichern via LocalStorage

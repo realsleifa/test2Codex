@@ -3,34 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Idle Space Miner</title>
+  <title>Idle Space Miner Deluxe</title>
   <link rel="stylesheet" href="style.css" />
+  <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
 </head>
 <body>
-  <h1>Idle Space Miner</h1>
-  <div id="resource-display">Staub: <span id="dust">0</span></div>
-  <button id="collect">Sammeln</button>
-
-  <div id="upgrades">
-    <h2>Upgrades</h2>
-    <button id="buy-auto" class="upgrade">
-      Auto-Sammler (<span id="auto-count">0</span>) - Kosten: <span id="auto-cost">10</span>
-    </button>
-    <button id="buy-multiplier" class="upgrade">
-      Laser-Booster (<span id="multiplier-level">1</span>x) - Kosten: <span id="multiplier-cost">50</span>
-    </button>
-  </div>
-
-  <div id="achievements">
-    <h2>Erfolge</h2>
-    <ul id="ach-list"></ul>
-  </div>
-
-  <div id="prestige">
-    <h2>Prestige</h2>
-    <button id="prestige-btn">Prestige (+<span id="prestige-points">0</span>% Produktion)</button>
-  </div>
-
+  <div id="root"></div>
   <script src="script.js"></script>
 </body>
 </html>

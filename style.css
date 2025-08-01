@@ -7,9 +7,14 @@ body {
   padding: 0;
 }
 
-#resource-display {
-  font-size: 24px;
+#tabs {
+  display: flex;
+  justify-content: center;
   margin: 20px 0;
+}
+
+#tabs button {
+  margin: 0 5px;
 }
 
 button {
@@ -28,26 +33,25 @@ button:disabled {
   cursor: not-allowed;
 }
 
-#upgrades,
-#achievements,
-#prestige {
-  margin-top: 20px;
+.resource {
+  font-size: 22px;
+  margin: 5px;
 }
 
-.upgrade {
-  display: block;
-  width: 80%;
-  margin: 10px auto;
-}
-
-#ach-list {
+#achievements {
   list-style: none;
   padding: 0;
 }
 
-#ach-list li {
-  background: rgba(0, 0, 0, 0.2);
-  margin: 5px;
-  padding: 5px;
-  border-radius: 3px;
+#achievements li {
+  background: rgba(0, 0, 0, 0.3);
+  margin: 5px auto;
+  padding: 5px 10px;
+  border-radius: 4px;
+  width: 80%;
+}
+
+.message {
+  margin-top: 10px;
+  color: #ffd700;
 }
