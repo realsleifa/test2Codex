@@ -1,1 +1,11 @@
-Hier soll ein Idle Game entstehen
+# Idle Space Miner Deluxe
+
+Ein React-basiertes Idle/Incremental-Game mit mehreren Ressourcen.
+Öffne `index.html` in einem aktuellen Browser, um zu spielen.
+
+## Features
+- Drei Ressourcen: Erz, Kristall und Energie
+- Arbeiter und Upgrades zur automatischen Produktion
+- Offline-Fortschritt, zufällige Meteor-Events und Achievements
+- Prestige-System mit Sternen und globalem Produktionsbonus
+- React-UI mit automatischem Speichern via LocalStorage
