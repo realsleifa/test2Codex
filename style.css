@@ -1,0 +1,53 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  background: linear-gradient(180deg, #101020, #202040);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+#resource-display {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background: #4caf50;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #888;
+  cursor: not-allowed;
+}
+
+#upgrades,
+#achievements,
+#prestige {
+  margin-top: 20px;
+}
+
+.upgrade {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+}
+
+#ach-list {
+  list-style: none;
+  padding: 0;
+}
+
+#ach-list li {
+  background: rgba(0, 0, 0, 0.2);
+  margin: 5px;
+  padding: 5px;
+  border-radius: 3px;
+}
